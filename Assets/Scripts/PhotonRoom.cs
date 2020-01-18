@@ -107,7 +107,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
 
     void CreateInteractableObjects()
     {
-        GameObject go = PhotonNetwork.Instantiate(Path.Combine("Prefabs", "HandModels"), Vector3.zero, Quaternion.identity);
+        GameObject go = PhotonNetwork.Instantiate(Path.Combine("Prefabs", "HandObject"), Vector3.zero, Quaternion.identity);
         go.transform.parent = TableAnchor.instance.transform;
         go.transform.localPosition = moduleLocation;
     }

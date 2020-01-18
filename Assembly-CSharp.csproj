@@ -73,6 +73,7 @@
      <Compile Include="Assets\AzureSpatialAnchors.SDK\Scripts\SpatialAnchorExtensions.cs" />
      <Compile Include="Assets\AzureSpatialAnchors.SDK\Scripts\SpatialAnchorManager.cs" />
      <Compile Include="Assets\AzureSpatialAnchors.SDK\Scripts\UnityDispatcher.cs" />
+     <Compile Include="Assets\CapsuleTest.cs" />
      <Compile Include="Assets\KinectScript.cs" />
      <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\InertiaPostProcessProvider.cs" />
      <Compile Include="Assets\LeapMotion\Core\Examples\Example Assets\ProjectionPostProcessProvider.cs" />
