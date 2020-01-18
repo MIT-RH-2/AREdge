@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{732695D2-62A2-AEC0-DAB7-F781E330361D}</ProjectGuid>
+    <ProjectGuid>{8DD92E7C-6FE4-3D13-9768-A8DF233436A7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -122,55 +122,55 @@
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\UI\Editor\InteractionSliderEditor.cs" />
      <Compile Include="Assets\LeapMotion\Modules\InteractionEngine\Scripts\Utility\Editor\IgnoreColliderForInteractionEditor.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems.Editor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation.Editor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.WindowsMR.Editor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.WindowsMR">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -376,47 +376,50 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UWP.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Azure.Kinect.Sensor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/Microsoft.Azure.Kinect.Sensor.dll</HintPath>
  </Reference>
  <Reference Include="System.Buffers">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Buffers.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Memory.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
- </Reference>
- <Reference Include="RestSharp">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll</HintPath>
- </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
- </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="InteractionEngineUtility">
- <HintPath>C:/Users/cat/Documents/Unity Projects/HoloLens2Photon/Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+ </Reference>
+ <Reference Include="RestSharp">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Purchasing">
+ <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -775,155 +778,155 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{59578421-2B96-56C5-2354-3B420B582C76}</Project>
+      <Project>{521278DC-37F2-F7A9-E012-912B305077E3}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj">
-      <Project>{48A874C6-2404-03DA-3E07-7ECBEEBE4D52}</Project>
+      <Project>{C4A98DA3-A6C8-CCCB-7CCF-21141F34A161}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj">
-      <Project>{67DADB5F-E737-D566-0C34-F463BD3CFF17}</Project>
+      <Project>{E6FF5D53-A632-CE5B-62CC-889943D99CE6}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.SceneSystem</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
-      <Project>{477B350C-B56F-1586-4368-6AD875699356}</Project>
+      <Project>{8231FBA1-F948-0864-4BCA-71B31A0816C5}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj">
-      <Project>{A3C93C3C-A00C-CB0B-C1F4-E8E82DAF0300}</Project>
+      <Project>{BBCE40FE-A04F-EB2B-3E53-DCF5D21A719F}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj">
-      <Project>{4BD0DB5D-6009-7184-FDDA-68806FE58E01}</Project>
+      <Project>{750178B5-9A30-2B90-ECA2-241916AA9ED8}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{B8EE051B-6ABD-6C9C-2F2D-2A8038E57299}</Project>
+      <Project>{ACC69BCC-BC46-290E-592F-3AAB81C9B56E}</Project>
       <Name>PunDemos.DemoHubEditor</Name>
     </ProjectReference>
     <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{BFCAF477-0D1E-8F92-3390-002E4343A53A}</Project>
+      <Project>{1DA48585-0DF6-98D2-BCF8-CECA74ADD10C}</Project>
       <Name>PunDemos.DemoSlotcarEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Async.csproj">
-      <Project>{1413AD2A-39DC-9149-4A76-39DE08B1BD28}</Project>
+      <Project>{5BAB174F-2314-323B-0912-C51BA5E3AAF7}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Async</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{6DAE5373-21C3-97B0-2D5B-718A4F6CC6CE}</Project>
+      <Project>{5F846B7B-E9FE-7326-FF73-3AF160534C5D}</Project>
       <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj">
-      <Project>{5DE58544-8BCB-F35B-FAAA-3DDF5021637E}</Project>
+      <Project>{455A6C72-AF0B-FF44-4E6B-4B6D8A2A97EF}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.csproj">
-      <Project>{E1BC2D0B-417B-F898-93C0-E1A25D696355}</Project>
+      <Project>{C99C5289-6922-2ED1-73B8-4E6B8E0E956A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
-      <Project>{4A8970C4-B555-2B18-9921-A178357DC5E1}</Project>
+      <Project>{DFE4E07A-7D89-2EB4-1E4B-B4CCBB59F6A5}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
-      <Project>{61B883BF-6ABD-D2D6-F0B1-5C262A83A84E}</Project>
+      <Project>{D8C4770D-B864-4A4F-236C-2A58E78A703A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.csproj">
-      <Project>{95E4D7F5-7022-691A-C6E8-57861C18BBD8}</Project>
+      <Project>{47E328D8-F947-A11B-AD61-14B773CC96C8}</Project>
       <Name>Microsoft.MixedReality.Toolkit</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.Inspectors.csproj">
-      <Project>{57880C07-7A9E-D1B8-1873-36E77422EE31}</Project>
+      <Project>{7FF05FDD-7426-BE27-0FA1-D24297A9C289}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj">
-      <Project>{B9CBFBD4-A9CA-DA79-A48A-7F48EF884838}</Project>
+      <Project>{6D039FFF-02F1-8C03-7AEC-BBB04C6B30A4}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
-      <Project>{F54FD9DD-E0F0-C066-85F2-7113D2C45D12}</Project>
+      <Project>{33D7802C-9E72-B3D1-9175-A3FBA5A5948B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
-      <Project>{4F199377-9615-90D9-9EC3-D9A5CFF73AC5}</Project>
+      <Project>{A4AB3D64-F31E-05B6-F7F2-386A2D13E907}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.CameraSystem</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonWebSocket.csproj">
-      <Project>{1050E83C-F246-B15B-0854-46B568EC772C}</Project>
+      <Project>{B63A9820-4741-CB82-35C4-40F58C5B880B}</Project>
       <Name>PhotonWebSocket</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.SDK.csproj">
-      <Project>{D676B510-23B0-C2C2-8BCF-BD33A554801B}</Project>
+      <Project>{E1638853-3E89-F16C-1B06-28FDCE8BCDF9}</Project>
       <Name>Microsoft.MixedReality.Toolkit.SDK</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonRealtime.csproj">
-      <Project>{413EDA0C-08C8-A4CF-8C05-E3A194E15B19}</Project>
+      <Project>{562198F8-AF0A-CA36-9150-602E14C76D6A}</Project>
       <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.OpenVR.csproj">
-      <Project>{C7EAB3FD-6FB5-9D22-9639-8979F4ED9E84}</Project>
+      <Project>{462BFAFB-35B4-1F8F-5391-71E6F9BA3B57}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.OpenVR</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj">
-      <Project>{922D4C27-2A31-B788-6668-B8B6A35780BA}</Project>
+      <Project>{3D1B7E6D-B707-8783-D1FF-47A05D15CE9B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.TeleportSystem</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.csproj">
-      <Project>{83C3645F-8C50-359A-F5FA-9B0A83D1A05E}</Project>
+      <Project>{37C4D77A-DF97-725D-3392-7C609C62B4ED}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj">
-      <Project>{2CDD99F9-A710-DCCE-C8E1-A048A822D5A8}</Project>
+      <Project>{64908714-FF16-FCF5-8C05-C64BE7C5B08A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj">
-      <Project>{1D265A66-E348-ED75-7681-A1D0E7215BC3}</Project>
+      <Project>{DFCC8D81-5367-5CA7-E0F1-C11B1AD0F53E}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj">
-      <Project>{D91F707D-54DE-807E-BC2C-3C7E8192FD5B}</Project>
+      <Project>{ABA277CF-FE00-E0F7-FF06-10262FE0F5AE}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj">
-      <Project>{49017CD3-18A3-9819-D6FF-306FE6D3703C}</Project>
+      <Project>{CFC3F581-4243-4B75-C1D7-718B54F1CA52}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Gltf.Importers</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj">
-      <Project>{D5AF1937-CF03-C750-20C8-4FEB4B77FE86}</Project>
+      <Project>{841AEDEC-3D02-6FAF-57BC-9C2DFA024A71}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputAnimation</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj">
-      <Project>{E7F0D8EE-9562-8C59-AD78-B2C7D3DC569C}</Project>
+      <Project>{AF3DB34E-EE01-E78A-FC2A-CC28BB497597}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Inspectors</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
-      <Project>{F4CAE49C-AA84-0DFA-129D-F35B995A6514}</Project>
+      <Project>{AE175C1D-A2BC-8831-753A-BCDA63F23E75}</Project>
       <Name>PhotonChat</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj">
-      <Project>{07E05B17-8F5D-0A6E-0099-B4E95DDBE6E5}</Project>
+      <Project>{E59C3580-E0F5-0F5D-15B6-7C486F715E27}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj">
-      <Project>{2A21EB9D-13F5-45C8-B220-93BFDC3AC6AB}</Project>
+      <Project>{BFCAB489-E188-70E9-A962-5BE5688FBE86}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.Utilities</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.BoundarySystem.csproj">
-      <Project>{60357651-3017-B5CE-DF78-73099F826ED0}</Project>
+      <Project>{B3A0CAFA-8D3E-B4F2-AD92-5BF47DBA98D5}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.BoundarySystem</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
-      <Project>{1625936E-0EDD-1102-FF71-8760C939B2E5}</Project>
+      <Project>{1A974C19-8870-FAB8-13BD-EE18FAF9FDFB}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
-      <Project>{6B83F36A-CE97-ABFE-E020-FE35A888868B}</Project>
+      <Project>{C339728A-8F0B-267A-E47A-C53D8F44ECC6}</Project>
       <Name>PhotonUnityNetworking.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj">
-      <Project>{D4B9CCC1-EFA6-8F2D-8FB1-159CE7DC668C}</Project>
+      <Project>{93369327-1395-DCD9-15EA-6EA05FFAF1CD}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation</Name>
     </ProjectReference>
   </ItemGroup>

@@ -22,8 +22,8 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
 
     public static event Action OnJoinedRoomEvent;
 
-    // public GameObject Tableprefab;
-    // public GameObject ModulePrefab;
+     public GameObject Tableprefab;
+     public GameObject ModulePrefab;
 
     private GameObject table;
     private GameObject module;
@@ -103,7 +103,7 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
             return;
         }
 
-        // CreateInteractableObjects();
+         CreateInteractableObjects();
     }
 
     void CreateInteractableObjects()

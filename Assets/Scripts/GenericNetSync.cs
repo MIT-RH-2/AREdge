@@ -31,11 +31,11 @@ public class GenericNetSync : MonoBehaviourPun, IPunObservable
 
         if (!PV.IsMine && isUser)
         {
-            //transform.parent = FindObjectOfType<TableAnchor>().transform;
+            transform.parent = FindObjectOfType<TableAnchor>().transform;
         }
         else if (PV.IsMine && isUser)
         {
-            //transform.parent = FindObjectOfType<TableAnchor>().transform;
+            transform.parent = FindObjectOfType<TableAnchor>().transform;
             GenericNetworkManager.instance.localUser = PV;
         }
 

@@ -209,7 +209,6 @@ MonoBehaviour:
   oneHandRotationModeFar: 6
   releaseBehavior: 3
   constraintOnRotation: 0
-  useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 0
   smoothingAmountOneHandManip: 0.001
@@ -217,22 +216,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!82 &246713195373430441
 AudioSource:
   m_ObjectHideFlags: 0
@@ -537,7 +536,6 @@ MonoBehaviour:
   oneHandRotationModeFar: 6
   releaseBehavior: 3
   constraintOnRotation: 0
-  useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 0
   smoothingAmountOneHandManip: 0.001
@@ -545,22 +543,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!82 &246713195511874414
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1736,7 +1734,6 @@ MonoBehaviour:
   oneHandRotationModeFar: 6
   releaseBehavior: 3
   constraintOnRotation: 0
-  useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 1
   smoothingAmountOneHandManip: 0.001
@@ -1744,22 +1741,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!114 &4611817846066163956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2807,7 +2804,6 @@ MonoBehaviour:
   oneHandRotationModeFar: 6
   releaseBehavior: 3
   constraintOnRotation: 0
-  useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 0
   smoothingAmountOneHandManip: 0.001
@@ -2815,22 +2811,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!82 &246713195616996058
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3182,7 +3178,6 @@ MonoBehaviour:
   oneHandRotationModeFar: 6
   releaseBehavior: 3
   constraintOnRotation: 0
-  useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 0
   smoothingAmountOneHandManip: 0.001
@@ -3190,22 +3185,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!82 &246713196077664456
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3510,7 +3505,6 @@ MonoBehaviour:
   oneHandRotationModeFar: 6
   releaseBehavior: 3
   constraintOnRotation: 0
-  useLocalSpaceForConstraint: 0
   constraintOnMovement: 0
   smoothingActive: 0
   smoothingAmountOneHandManip: 0.001
@@ -3518,22 +3512,22 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnManipulationEnded:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverEntered:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   OnHoverExited:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: Microsoft.MixedReality.Toolkit.UI.ManipulationEvent, Microsoft.MixedReality.Toolkit.SDK,
-      Version=2.2.0.0, Culture=neutral, PublicKeyToken=null
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!82 &246713196391192383
 AudioSource:
   m_ObjectHideFlags: 0

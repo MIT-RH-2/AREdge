@@ -24,42 +24,50 @@ public class KinectScript : MonoBehaviour
 
     private void OnDestroy()
     {
-        device.StopCameras();
+        device?.StopCameras();
     }
 
     void Start()
     {
-        InitKinect(); 
+        InitKinect();
+        if(device==null) return;
         InitMesh();
         Task t = KinectLoop(device);
     }
     void InitKinect()
     {
-        device = Device.Open(0);
-        device.StartCameras(new DeviceConfiguration
+        try
         {
-            ColorFormat = ImageFormat.ColorBGRA32,
-            ColorResolution = ColorResolution.R720p,
-            DepthMode = DepthMode.NFOV_Unbinned,
-            SynchronizedImagesOnly = true,
-            CameraFPS = FPS.FPS30,
-        });
+            device = Device.Open(0);
+            device.StartCameras(new DeviceConfiguration
+            {
+                ColorFormat = ImageFormat.ColorBGRA32,
+                ColorResolution = ColorResolution.R720p,
+                DepthMode = DepthMode.NFOV_Unbinned,
+                SynchronizedImagesOnly = true,
+                CameraFPS = FPS.FPS30,
+            });
 
-        transformation = device.GetCalibration().CreateTransformation();
+            transformation = device.GetCalibration().CreateTransformation();
 
-        depthWidth = device.GetCalibration().DepthCameraCalibration.ResolutionWidth;
-        depthHeight = device.GetCalibration().DepthCameraCalibration.ResolutionHeight;
-        pointNum = depthWidth * depthHeight;
+            depthWidth = device.GetCalibration().DepthCameraCalibration.ResolutionWidth;
+            depthHeight = device.GetCalibration().DepthCameraCalibration.ResolutionHeight;
+            pointNum = depthWidth * depthHeight;
+        }
+        catch
+        {
+            device = null;
+        }
 
     }
     void InitMesh()
     {
         mesh = new Mesh();
         mesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
-        
+
         texture = new Texture2D(depthWidth, depthHeight);
         col = new Color32[pointNum];
-       
+
         vertices = new Vector3[pointNum];
         Vector2[] uv = new Vector2[pointNum];
 
@@ -70,7 +78,7 @@ public class KinectScript : MonoBehaviour
         {
             for (int x = 0; x < depthWidth; x++)
             {
-                uv[index] = new Vector2(((float)(x+0.5f) / (float)(depthWidth)), ((float)(y+0.5f) / ((float)(depthHeight))));
+                uv[index] = new Vector2(((float)(x + 0.5f) / (float)(depthWidth)), ((float)(y + 0.5f) / ((float)(depthHeight))));
                 normals[index] = new Vector3(0, -1, 0);
                 index++;
             }
@@ -105,7 +113,7 @@ public class KinectScript : MonoBehaviour
                 {
                     for (int x = 0; x < depthWidth; x++)
                     {
-                       
+
                         vertices[pointIndex].x = PointCloud[pointIndex].X * 0.001f;
                         vertices[pointIndex].y = -PointCloud[pointIndex].Y * 0.001f;
                         vertices[pointIndex].z = PointCloud[pointIndex].Z * 0.001f;
@@ -158,7 +166,7 @@ public class KinectScript : MonoBehaviour
 
                 texture.SetPixels32(col);
                 texture.Apply();
-               
+
                 mesh.vertices = vertices;
 
                 mesh.triangles = indeces;

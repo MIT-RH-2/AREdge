@@ -345,12 +345,12 @@ namespace Microsoft.MixedReality.Toolkit.WindowsMixedReality.Input
                 UnityEngine.XR.WSA.HolographicRemoting.ConnectionState == UnityEngine.XR.WSA.HolographicStreamerConnectionState.Connected)
             {
                 // This workaround is safe as long as all these assumptions hold:
-                Debug.Assert(!interactionSourceState.selectPressed, "Unity issue #1033526 seems to have been resolved. Please remove this workaround!");
-                Debug.Assert(!interactionSourceState.source.supportsGrasp);
-                Debug.Assert(!interactionSourceState.source.supportsMenu);
-                Debug.Assert(!interactionSourceState.source.supportsPointing);
-                Debug.Assert(!interactionSourceState.source.supportsThumbstick);
-                Debug.Assert(!interactionSourceState.source.supportsTouchpad);
+                //Debug.Assert(!interactionSourceState.selectPressed, "Unity issue #1033526 seems to have been resolved. Please remove this workaround!");
+                //Debug.Assert(!interactionSourceState.source.supportsGrasp);
+                //Debug.Assert(!interactionSourceState.source.supportsMenu);
+                //Debug.Assert(!interactionSourceState.source.supportsPointing);
+                //Debug.Assert(!interactionSourceState.source.supportsThumbstick);
+                //Debug.Assert(!interactionSourceState.source.supportsTouchpad);
 
                 selectPressed = interactionSourceState.anyPressed;
             }
