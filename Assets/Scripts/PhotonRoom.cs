@@ -28,7 +28,6 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
     private GameObject table;
     private GameObject module;
 
-    private string prefabName = "Rocket Launcher_Complete Variant";
     private Vector3 moduleLocation = Vector3.zero;
 
     void Awake()
@@ -108,15 +107,9 @@ public class PhotonRoom : MonoBehaviourPunCallbacks, IInRoomCallbacks
 
     void CreateInteractableObjects()
     {
-        GameObject go = PhotonNetwork.Instantiate(Path.Combine("Prefabs", prefabName), Vector3.zero, Quaternion.identity);
+        GameObject go = PhotonNetwork.Instantiate(Path.Combine("Prefabs", "HandModels"), Vector3.zero, Quaternion.identity);
         go.transform.parent = TableAnchor.instance.transform;
         go.transform.localPosition = moduleLocation;
-    }
-
-    private void CreateMainLunarModule()
-    {
-        module = PhotonNetwork.Instantiate(Path.Combine("Prefabs", prefabName), Vector3.zero, Quaternion.identity);
-        PV.RPC("Rpc_SetModuleParent", RpcTarget.AllBuffered);
     }
 
     [PunRPC]
