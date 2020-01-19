@@ -463,27 +463,31 @@ namespace Leap.Unity {
         return;
       }
 
-      _leapController = new Controller();
-      _leapController.Device += (s, e) => {
-        if (_onDeviceSafe != null) {
-          _onDeviceSafe(e.Device);
+      try{
+        _leapController = new Controller();
+        _leapController.Device += (s, e) => {
+          if (_onDeviceSafe != null) {
+            _onDeviceSafe(e.Device);
+          }
+        };
+
+        if (_leapController.IsConnected) {
+          initializeFlags();
+        } else {
+          _leapController.Device += onHandControllerConnect;
         }
-      };
 
-      if (_leapController.IsConnected) {
-        initializeFlags();
-      } else {
-        _leapController.Device += onHandControllerConnect;
-      }
+        if (_workerThreadProfiling) {
+          //A controller will report profiling statistics for the duration of it's lifetime
+          //so these events will never be unsubscribed from.
+          _leapController.EndProfilingBlock += LeapProfiling.EndProfilingBlock;
+          _leapController.BeginProfilingBlock += LeapProfiling.BeginProfilingBlock;
 
-      if (_workerThreadProfiling) {
-        //A controller will report profiling statistics for the duration of it's lifetime
-        //so these events will never be unsubscribed from.
-        _leapController.EndProfilingBlock += LeapProfiling.EndProfilingBlock;
-        _leapController.BeginProfilingBlock += LeapProfiling.BeginProfilingBlock;
-
-        _leapController.EndProfilingForThread += LeapProfiling.EndProfilingForThread;
-        _leapController.BeginProfilingForThread += LeapProfiling.BeginProfilingForThread;
+          _leapController.EndProfilingForThread += LeapProfiling.EndProfilingForThread;
+          _leapController.BeginProfilingForThread += LeapProfiling.BeginProfilingForThread;
+        }
+      }catch{
+        Destroy(this);
       }
     }
     
