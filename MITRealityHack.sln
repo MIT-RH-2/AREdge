@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utili
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem", "Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj", "{6D039FFF-02F1-8C03-7AEC-BBB04C6B30A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaScripts", "VuforiaScripts.csproj", "{BC4C7C10-02F5-6B55-54E2-88F6C17F0A3C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{521278DC-37F2-F7A9-E012-912B305077E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonChat", "PhotonChat.csproj", "{AE175C1D-A2BC-8831-753A-BCDA63F23E75}"
@@ -77,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotonUnityNetworking.Utili
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PunDemos.DemoSlotcarEditor", "PunDemos.DemoSlotcarEditor.csproj", "{1DA48585-0DF6-98D2-BCF8-CECA74ADD10C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuforiaEditorScripts", "VuforiaEditorScripts.csproj", "{1EAD769E-E8B9-60C3-8F25-1319C7A12AEA}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor", "Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj", "{DFCC8D81-5367-5CA7-E0F1-C11B1AD0F53E}"
 EndProject
 Global
@@ -109,6 +113,10 @@ Global
 		{6D039FFF-02F1-8C03-7AEC-BBB04C6B30A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D039FFF-02F1-8C03-7AEC-BBB04C6B30A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D039FFF-02F1-8C03-7AEC-BBB04C6B30A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4C7C10-02F5-6B55-54E2-88F6C17F0A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4C7C10-02F5-6B55-54E2-88F6C17F0A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4C7C10-02F5-6B55-54E2-88F6C17F0A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4C7C10-02F5-6B55-54E2-88F6C17F0A3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{521278DC-37F2-F7A9-E012-912B305077E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{521278DC-37F2-F7A9-E012-912B305077E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{521278DC-37F2-F7A9-E012-912B305077E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -237,6 +245,10 @@ Global
 		{1DA48585-0DF6-98D2-BCF8-CECA74ADD10C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DA48585-0DF6-98D2-BCF8-CECA74ADD10C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DA48585-0DF6-98D2-BCF8-CECA74ADD10C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EAD769E-E8B9-60C3-8F25-1319C7A12AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EAD769E-E8B9-60C3-8F25-1319C7A12AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EAD769E-E8B9-60C3-8F25-1319C7A12AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EAD769E-E8B9-60C3-8F25-1319C7A12AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DFCC8D81-5367-5CA7-E0F1-C11B1AD0F53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DFCC8D81-5367-5CA7-E0F1-C11B1AD0F53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFCC8D81-5367-5CA7-E0F1-C11B1AD0F53E}.Release|Any CPU.ActiveCfg = Release|Any CPU

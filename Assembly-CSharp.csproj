@@ -388,24 +388,35 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <None Include="Assets\MRTK.Tutorials.AzureSpatialAnchors\Version.txt" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\LeapMotion\Core\Resources\LeapCG.cginc" />
      <None Include="Assets\MRTK.Tutorials.GettingStarted\Version.txt" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\LeapMotion\Core\README_BEFORE_UPDATING.txt" />
      <None Include="Assets\MixedRealityToolkit.Providers\Version.txt" />
      <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUVNV12_YUVNV21.cginc" />
+     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\LeapMotion\Core\readme.txt" />
      <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
      <None Include="Assets\LeapMotion\Core\Shaders\RuntimeGizmos.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\HL2.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
      <None Include="Assets\MixedRealityToolkit.Services\Version.txt" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUV420P_YUVYV12.cginc" />
      <None Include="Assets\MixedRealityToolkit.Services\License.txt" />
      <None Include="Assets\LeapMotion\Core\Dependencies.txt" />
      <None Include="Assets\LeapMotion\Core\Shaders\ThresholdOverlay.shader" />
      <None Include="Assets\MixedRealityToolkit.Providers\License.txt" />
      <None Include="Assets\AzureSpatialAnchors.SDK\Plugins\HoloLens\version.txt" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVideoBackground.cginc" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\LeapMotion\Core\Shaders\PassthroughForeground.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
@@ -416,70 +427,75 @@
      <None Include="Assets\LeapMotion\Core\Shaders\PassthroughBackground.shader" />
      <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
      <None Include="Assets\LeapMotion\Core\Version.txt" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
      <None Include="Assets\LeapMotion\Core\Shaders\VertexOffsetShader.shader" />
+     <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
      <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARSubsystems.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARSubsystems.Editor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation.Editor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.ARFoundation">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.XR.ARFoundation.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.WindowsMR.Editor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.XR.WindowsMR.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.WindowsMR">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/ScriptAssemblies/Unity.XR.WindowsMR.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -662,37 +678,37 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Azure.Kinect.Sensor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/Microsoft.Azure.Kinect.Sensor.dll</HintPath>
  </Reference>
  <Reference Include="System.Buffers">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Buffers.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Memory.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/AzureKinectExamples/SDK/Kinect4AzureSDK/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="InteractionEngineUtility">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/LeapMotion/Modules/InteractionEngine/Plugins/InteractionEngineUtility.dll</HintPath>
  </Reference>
  <Reference Include="RestSharp">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/MRTK.Tutorials.AzureSpatialAnchors/Plugins/RestSharp.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/Greg/source/repos/MITRealityHack/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/cat/Downloads/MITRealityHack/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -1098,6 +1114,10 @@
       <Project>{DFE4E07A-7D89-2EB4-1E4B-B4CCBB59F6A5}</Project>
       <Name>PhotonUnityNetworking.Utilities</Name>
     </ProjectReference>
+    <ProjectReference Include="VuforiaScripts.csproj">
+      <Project>{BC4C7C10-02F5-6B55-54E2-88F6C17F0A3C}</Project>
+      <Name>VuforiaScripts</Name>
+    </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj">
       <Project>{D8C4770D-B864-4A4F-236C-2A58E78A703A}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Editor.ClassExtensions</Name>
@@ -1117,6 +1137,10 @@
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj">
       <Project>{33D7802C-9E72-B3D1-9175-A3FBA5A5948B}</Project>
       <Name>Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VuforiaEditorScripts.csproj">
+      <Project>{1EAD769E-E8B9-60C3-8F25-1319C7A12AEA}</Project>
+      <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
     <ProjectReference Include="Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj">
       <Project>{A4AB3D64-F31E-05B6-F7F2-386A2D13E907}</Project>
