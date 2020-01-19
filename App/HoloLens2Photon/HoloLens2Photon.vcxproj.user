@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <DebuggerFlavor>WindowsAppEmulatorDebugger</DebuggerFlavor>
+    <WindowsAppEmulatorID>ba5e63da-de7e-7bf6-1d9c-3601ffd50dbe;HoloLens 2 Emulator 10.0.18362.1042</WindowsAppEmulatorID>
+  </PropertyGroup>
+</Project>

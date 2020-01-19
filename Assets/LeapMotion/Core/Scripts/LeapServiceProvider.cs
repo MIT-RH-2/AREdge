@@ -487,6 +487,7 @@ namespace Leap.Unity {
           _leapController.BeginProfilingForThread += LeapProfiling.BeginProfilingForThread;
         }
       }catch{
+        destroyController();
         Destroy(this);
       }
     }

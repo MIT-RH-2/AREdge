@@ -1,3 +1,9 @@
 Logs/
 Library/
 obj/
+.vs/
+**/bin/
+**/il2cpp_data/
+**/Managed/
+**/Il2CppOutputProject/
+**/packages/
