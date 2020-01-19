@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d30aa17b83085bd4786c4b41ffe94b94
+ScriptedImporter:
+  fileIDToRecycleName:
+    100004: main/glTF Scene Arrow
+    100006: main/glTF Scene Arrow/Straight
+    400004: main/glTF Scene Arrow/Transform
+    400006: main/glTF Scene Arrow/Straight/Transform
+    2100000: Standard.003
+    2300002: main/glTF Scene Arrow/Straight/MeshRenderer
+    3300002: main/glTF Scene Arrow/Straight/MeshFilter
+    4300000: Mesh.053
+    11400000: glTF data
+    100100000: main
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 75911c45f303c8f45927f5efeaa50cc4, type: 3}
